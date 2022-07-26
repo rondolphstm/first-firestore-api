@@ -6,7 +6,7 @@ app.use(express.json());
 
 // put our routes here
  app.get('/', (req, res) => {
-    res.send('Express is fucking working!!!');
+    res.send('Express is working!!!');
  });
 
 app.listen(PORT, () =>{
